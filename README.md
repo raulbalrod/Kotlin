@@ -16,6 +16,10 @@ Kotlin was designed to improve upon Java and address some of its most common pai
 Getting started with Kotlin is easy. You can start by installing the latest version of the Kotlin plugin for your preferred IDE. Then, you can create a new Kotlin project and start writing your first Kotlin code.
 
 If you're already familiar with Java, you'll find that Kotlin's syntax is similar and easy to learn. There are also many resources available online, including official documentation and tutorials, to help you get started with Kotlin.
+    
+- [Kotlin Docs](https://kotlinlang.org/docs/home.html)
+- [Kotlin Web](https://kotlinlang.org/)
+- [Kotlin Forum](https://discuss.kotlinlang.org/)
 
 ## Conclusion
 
