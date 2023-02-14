@@ -118,8 +118,8 @@ The `for` loop iterates through anything that provides an iterator. This is equi
 		for (item in collection) print(item)
 	</code>
 </pre>
-   -  Example(Range expressions):
-		   - From 0 to 10
+-  Example(Range expressions):
+From 0 to 10
 <pre>
 	<code>
 		for (i in 0..10) {
@@ -127,7 +127,7 @@ The `for` loop iterates through anything that provides an iterator. This is equi
 		}
 	</code>
 </pre>
-		 - From 1 to 10
+From 1 to 10
 <pre>
 	<code>
 		for (i in 0 until 10) {
@@ -135,7 +135,7 @@ The `for` loop iterates through anything that provides an iterator. This is equi
 		}
 	</code>
 </pre>
-		 - Increase
+Increase
 <pre>
 	<code>
 		for (i in 0..10 step 2) {
@@ -143,7 +143,7 @@ The `for` loop iterates through anything that provides an iterator. This is equi
 		}
 	</code>
 </pre>
-		 - Countdown
+Countdown
 <pre>
 	<code>
 		for (i in 10 downTo 0 ) {
@@ -152,7 +152,7 @@ The `for` loop iterates through anything that provides an iterator. This is equi
 	</code>
 </pre>
 
-   -  Example(Array):
+Example(Array):
 <pre>
 	<code>
 		for (i in array.indices) {
@@ -164,8 +164,8 @@ or
 <pre>
 	<code>
 		val items = listOf("apple", "banana", "kiwifruit")
-		for (item in items) {
-		    println(item)
+		for (i in items) {
+		    println(i)
 		}
 	</code>
 </pre>
