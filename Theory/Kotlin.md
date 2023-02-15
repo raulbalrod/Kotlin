@@ -186,7 +186,7 @@ From 0 to 10
 		}
 	</code>
 </pre>
-From 1 to 10
+From 0 to 9
 <pre>
 	<code>
 		for (i in 0 until 10) {
