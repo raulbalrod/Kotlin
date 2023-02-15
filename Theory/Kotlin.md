@@ -166,7 +166,7 @@ Additional operations with arrays:
    
    -  More Info: [Spanish video](https://www.youtube.com/watch?v=VHhc-ndfI-Y)
    -  More Info: [English video](https://www.youtube.com/watch?v=ORsoHzgUFyQ)
-   -  More Info: [Arrays Docs]([https://www.youtube.com/watch?v=VHhc-ndfI-Y](https://kotlinlang.org/docs/arrays.html))
+   -  More Info: [Arrays Docs](https://kotlinlang.org/docs/arrays.html)
 
 ## Bucles For
 
