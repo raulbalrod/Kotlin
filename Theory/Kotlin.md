@@ -4,7 +4,6 @@
 - [Kotlin command-line compiler](https://kotlinlang.org/docs/command-line.html)
 
 ## Program entry point
----
 
 <pre>
 	<code>
@@ -15,7 +14,7 @@
 	</pre>
 
 ## Print to the standard output
----
+
 - `print` prints its argument to the standard output.
 
 <pre>
@@ -36,7 +35,7 @@
 
 
 ## Variables
---- 
+ 
 
 Variables that can be reassigned use the `var` keyword.
 <pre>
@@ -47,7 +46,7 @@ Variables that can be reassigned use the `var` keyword.
 </pre>
 
 ## Constantes
----
+
 Read-only local variables are defined using the keyword `val`. They can be assigned a value only once.
 <pre>
 	<code>
@@ -59,7 +58,7 @@ Read-only local variables are defined using the keyword `val`. They can be assig
 </pre>
 
 ## Sentencia IF
----
+
 In Kotlin, `if` is an expression: it returns a value. Therefore, there is no ternary operator (`condition ? then : else`) because ordinary `if` works fine in this role.
 <pre>
 	<code>
@@ -76,7 +75,6 @@ In Kotlin, `if` is an expression: it returns a value. Therefore, there is no ter
 
 
 ## Sentencia WHEN
----
 
 <pre>
 	<code>
@@ -92,7 +90,7 @@ In Kotlin, `if` is an expression: it returns a value. Therefore, there is no ter
 </pre>
 
 ## Rangos
----
+
 Check if a number is within a range using `in` operator.
 
 - Check if a number is out of range.
@@ -108,9 +106,70 @@ Check if a number is within a range using `in` operator.
    -  More Info: [Ranges and progressions](https://kotlinlang.org/docs/control-flow.html#if-expression)
 
 ## Arrays
----
+
+Create a Array with arrayListOf:
+<pre>
+	<code>
+		val name = "Brais"
+		val company = "MoureDev"
+		
+		val arr = arrayListOf<String>()
+		
+		arr.add(name)
+		arr.add(company)
+		// [Brais, MoureDev]
+	</code>
+</pre>
+
+Add a data set:
+<pre>
+	<code>
+		arr.addAll(listOf("Hello", "32"))
+		// [Brais, MoureDev, Hello, 32]
+	</code>
+</pre>
+
+Data acces:
+<pre>
+	<code>
+		arr[0]
+		// Brais
+	</code>
+</pre>
+
+Data modification:
+<pre>
+	<code>
+		arr[0] = "NewValue"
+		// [NewValue, MoureDev, Hello, 32]
+	</code>
+</pre>
+
+Data removal ".removeAt()"
+Loop data ".forEach":
+<pre>
+	<code>
+		arr.forEach{
+           		println(it)
+        	}
+    		// NewValue MoureDev Hello 32
+	</code>
+</pre>
+
+Additional operations with arrays:
+ - .count() -> How many elements are in array
+ - .clear() -> Delete all items from array
+ - .first() -> First item from array
+ - .last() -> Last item from array
+ - .sort() -> Ordering of array elements
+ - .contentToString() -> To print array
+   
+   -  More Info: [Spanish video](https://www.youtube.com/watch?v=VHhc-ndfI-Y)
+   -  More Info: [English video](https://www.youtube.com/watch?v=ORsoHzgUFyQ)
+   -  More Info: [Arrays Docs]([https://www.youtube.com/watch?v=VHhc-ndfI-Y](https://kotlinlang.org/docs/arrays.html))
+
 ## Bucles For
---- 
+
 The `for` loop iterates through anything that provides an iterator. This is equivalent to the `foreach` loop in languages like C#. The syntax of `for` is the following:
 
 <pre>
@@ -173,7 +232,7 @@ or
    -  More info: [For loops](https://kotlinlang.org/docs/control-flow.html#for-loops)
 
 ## Bucles While
----
+
 `while` and `do-while` loops execute their body continuously while their condition is satisfied. The difference between them is the condition checking time:
 
 -   `while` checks the condition and, if it's satisfied, executes the body and then returns to the condition check.
