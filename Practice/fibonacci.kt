@@ -1,5 +1,5 @@
 fun main() {
-	var fib = 1
+    var fib = 1
     var aux = 0
     
     println(fib)
